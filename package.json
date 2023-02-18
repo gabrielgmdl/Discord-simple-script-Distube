@@ -1,0 +1,18 @@
+{
+  "name": "Discord-simple-script-DisTube",
+  "version": "1.0.0",
+  "description": "Bot para tocar músicas em um canal do Discord",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Gabriel gmdl",
+  "dependencies": {
+    "@discordjs/opus": "^0.7.0",
+    "@discordjs/voice": "^0.7.5",
+    "discord.js": "^13.6.0",
+    "distube": "^3.1.1",
+    "ffmpeg-static": "^4.4.1",
+    "libsodium-wrappers": "^0.7.9"
+  }
+}
